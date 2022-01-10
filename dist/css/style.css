@@ -1,0 +1,178 @@
+* {
+     box-sizing: border-box !important;
+}
+body {
+     color: #666666;
+     font-size: 14px;
+     font-family: 'poppins', sans-serif;
+     line-height: 1.80857;
+     font-weight: normal;
+}
+
+section{
+  padding:2rem 9%;
+}
+
+/*img {
+     max-width: 100%;
+     height: auto;
+}*/
+.header-top2{
+      background: url(../images/banner-1.jpg);
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     padding-bottom: 90px; 
+}
+.header-top {
+     background: url(../images/home.jpg);
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     padding-bottom: 90px;
+}
+
+.text-bg {
+     text-align: left;
+     margin-left: 5%;
+}
+.text-bg span {
+     color: #020607;
+     font-weight: bold;
+     font-size: 55px;
+     line-height: 50px;
+     text-transform: uppercase;
+}
+.text-bg h1 {
+     color: #d9534f;
+     padding-top: 20px;
+     font-size: 39px;
+     line-height: 80px;
+     padding-bottom: 25px;
+     font-weight: bold;
+     text-transform: uppercase;
+}
+.text-bg p {
+     font-size: 20px;
+     font-weight: 500;
+  background-color: #686666da;
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 3px 15px rgba(0,0,0,1.5);
+padding: 15px 5px;
+}
+.text-bg a {
+     text-align: center;
+     margin-top: 30px;
+     font-size: 16px;
+     background-color: #020607;
+     color: #d9534f;
+     font-weight: bold;
+     padding: 10px 0px;
+     width: 100%;
+     max-width: 190px;
+     border-radius: 15px;
+     float: left;
+     display: inline-block;
+}
+.text-bg a:hover {
+     background-color: #4ac9f0;
+     color: #d9534f;
+     /*font-size: 20px;*/
+}
+
+.slider_section {
+     padding-top: 100px;
+}
+.banner_main .carousel-caption {
+     position: inherit;
+}
+.carousel-indicators {
+     right: inherit;
+     top: 50%;
+     display: block;
+     margin-left: 1%;
+}
+.carousel-indicators li {
+     width: 18px;
+     height: 18px;
+     border-radius: 20px;
+     background: #4ac9f0;
+     margin: 5px 0px;
+}
+.carousel-indicators .active {
+     background-color: #d9534f;
+}
+#myCarousel .carousel-control-prev,
+#myCarousel .carousel-control-next {
+     display: none;
+}
+
+/** three box **/
+.box_btn{
+  display: inline-block;
+  margin-top: 1rem;
+  background:var(--green);
+  color:#fff;
+  padding:.4rem 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+
+.box_btn:hover{
+  color:cyan;
+}
+
+
+.box_top {
+     margin-top: -90px;
+}
+
+
+.three_box {
+     background: #4ac9f0;
+     text-align: center;
+     padding: 0px 30px 30px 30px;
+}
+.yellow {
+     background: #023041 !important;
+}
+.padd_ri {
+     padding-right: 0;
+     padding-left: 7px;
+}
+.padding_l {
+     padding-left: 5px;
+     padding-right: 5px;
+}
+.padd_rile {
+     padding-right: 7px;
+     padding-left: 0;
+}
+.three_box span {
+     color: #fff;
+     background: #4ac9f0;
+     border-radius: 48px;
+     width: 70px;
+     height: 70px;
+     font-size: 25px;
+     display: inline-block;
+     padding-top: 12px;
+     margin-top: -25px;
+     text-align: center;
+}
+.three_box h3 {
+     color: #fff;
+     font-size: 30px;
+     line-height: 25px;
+     font-weight: 500;
+     padding: 30px 0 20px 0;
+}
+.three_box p {
+     font-size: 17px;
+     line-height: 35px;
+     color: #fff;
+}
+
+/** end three box **/
