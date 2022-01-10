@@ -1,0 +1,104 @@
+
+/*body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}*/
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: var(--Abel);
+  line-height: 1.6;
+}
+
+.apply_wrapper{
+  margin: 20px 20px;
+
+}
+.header
+{
+    height:40px;
+    width: 98%;
+    background-color: #668284;
+    }
+
+.schoolname {
+    float:left;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+}
+.boxoffice{
+    float:right;
+    margin-right: 20px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+}
+.big_title{
+  color: #04AA6D;
+}
+
+.apply_container {
+  padding: 16px;
+  background-color: white;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.submitnow {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  margin-bottom: 5px;
+  margin-left: 25%;
+}
+
+.submitnow:hover {
+  opacity: 1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.grided_form{
+padding: 10px;
+  margin: 5px;
+}
+.apply_page{
+  margin: 15px;
+}
+.grided_form input[type=number], input[type=date],select {
+    width: 30%;
+  padding: 5px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  font-size: 16px;
+}

@@ -1,0 +1,14 @@
+to edit the product boxes
+either use grids or flex
+
+
+Rember to remove root and * from css
+and live only one file 
+
+
+FILES USING STRAT.CSS
+1.ALL.HTML
+2.MATERILS.HTML
+3 START
+4 REG
+*AGABA PRECIOUS*

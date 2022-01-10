@@ -1,0 +1,182 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+/*    background: url(../images/5.png);
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     padding-bottom: 30%;*/ 
+}
+.navheader{
+	background: #023041;
+	height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+	/*text-align: center;*/
+}
+.navheader .Search_portal2{
+
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-left: 200px;
+    border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  margin-top: 10px;
+  padding: 7px;
+
+}
+.navheader .site_title a{
+	 font-size: 1.3rem;
+    padding: 1rem;
+    display: block;
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: green;
+}
+.navheader ul {
+	display:inline-flex;
+	color: #fff;
+	list-style: none;
+}
+.navheader ul li {
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.navheader ul li a {
+	color: #fff;
+	text-decoration: none;
+    text-transform: uppercase;
+}
+.activenow,.navheader ul li:hover{
+	background: #3f4954;
+	border-radius: 3px;
+	height: 45px;
+}
+.navheader .fa{
+	margin-right: 8px;
+}
+.sub-navheader-1 {
+	display: none;
+}
+.navheader ul li:hover .sub-navheader-1 {
+	display: block;
+	position: absolute;
+	background: rgb(0,100,0);
+	margin-top: 5px;
+	margin-left: -15px;
+    z-index: 101;
+}
+.navheader ul li:hover .sub-navheader-1 ul{
+	display: block;
+	margin: 10px;
+}
+
+.navheader ul li:hover .sub-navheader-1 ul li {
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background:transparent;
+	border-radius: 0;
+	text-align: left;
+}
+
+.navheader ul li:hover .sub-navheader-1 ul li:hover a{
+color: #b2ff00;
+}
+/*hambarger*/
+.navheader .toggle-collapse{
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+
+.navheader .toggle-collapse .toggle-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+
+.navheader .toggle-collapse .toggle-icons i{
+    font-size: 1.4rem;
+}
+
+.collapsenavbar{
+    height: 30rem;
+}
+
+
+.header-top {
+   
+}
+.header img {
+     max-width: 100%;
+     height: auto;
+}
+
+.logo_grocery p a {
+     font-size: 15px;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #4ac9f0;
+     line-height: 20px;
+}
+
+.logo {
+     float: left;
+     width: 50px;
+     height:50px;
+}
+.logo_grocery{
+      float: right;
+     width: 150px;
+     height:50px;
+}
+/*LOGOS*/
+
+
+
+/* tablets and under */
+@media(max-width:768px){
+.navheader ul{
+    display: initial;
+}
+
+.navheader .toggle-collapse{
+    display: initial;
+        /*flex: end*/
+    }
+.navheader ul li:hover .sub-navheader-1 {
+
+	margin-left: 55%;
+}
+
+.navheader ul li {
+width: 100%;
+
+}
+.navheader .Search_portal2{
+    margin-left: 0;
+
+}
+
+
+}
+
+/* mobile*/
+@media (max-width: 520px){
+
+.navheader .toggle-collapse{
+        width: 90% !important;
+    }
+
+}
