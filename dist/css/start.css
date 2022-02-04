@@ -68,17 +68,28 @@ body{
 						/*showcase*/
 .showcase{
 	height: 400px;
-	background-color: #aaa;
+	/*background-color: #aaa;*/
+	background: url(../images/default-image.jpg);
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
 	/*color: #fff;*/
 	position: relative;
 	margin-bottom: 100px;
 }
 
 .showcase h1{
-	font-size: 20px 0;
+	font-size: 25px 0;
+	color: var(--white);
+	background-color: grey;
+	padding: 3px;
+	border-radius: 3px;
 }
 .showcase p{
 	margin: 20px 0;
+	font-size: 20px;
+	font-family: sans-serif;
+	color:var(--black);
+	font-weight: bold;
 }
 
 
